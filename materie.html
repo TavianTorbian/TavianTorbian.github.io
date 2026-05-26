@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Materie Scolastiche — Federico Taviani</title>
+  <meta name="description" content="Indice delle materie scolastiche dell'ultimo anno di Informatica presso l'IIS Marconi Pieralisi di Jesi, studiate da Federico Taviani.">
+  
+  <!-- SEO Open Graph -->
+  <meta property="og:title" content="Le mie materie — Federico Taviani">
+  <meta property="og:description" content="Il programma e le riflessioni personali sulle materie scolastiche del quinto anno di Informatica.">
+  <meta property="og:image" content="immagini/profilo.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Icone Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Foglio di Stile Personalizzato -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAVBAR E TESTATA STICKY -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <a href="index.html" class="site-logo" aria-label="Federico Taviani Home">
+        <i class="fa-solid fa-code"></i> FEDERICO<span>TAVIANI</span>
+      </a>
+      
+      <button class="hamburger-toggle" aria-label="Apri menu di navigazione" aria-expanded="false" aria-controls="navMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+      <nav class="site-navigation">
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html#home" class="nav-link">Home</a></li>
+          <li><a href="index.html#chi-sono" class="nav-link">Chi Sono</a></li>
+          <li><a href="index.html#passioni" class="nav-link">Passioni</a></li>
+          <li><a href="materie.html" class="nav-link">Materie</a></li>
+          <li><a href="educazione-civica.html" class="nav-link">Educazione Civica</a></li>
+          <li><a href="pcto.html" class="nav-link">PCTO</a></li>
+          <li><a href="contatti.html" class="nav-link">Contatti</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- INTESTAZIONE PAGINA -->
+    <header class="materie-page-header">
+      <div class="container">
+        <h1>Materie Scolastiche</h1>
+        <p class="materie-intro-text">Un resoconto ragionato delle discipline affrontate nel corso del quinto anno dell'indirizzo Informatica e Telecomunicazioni, suddivise per area di competenza.</p>
+      </div>
+    </header>
+
+    <!-- AREA SCIENTIFICO-TECNICA -->
+    <section class="area-section" id="area-tecnica">
+      <div class="container">
+        <div class="area-header">
+          <span class="area-badge scientific">Scientifico - Tecnica</span>
+          <h2>Informatica & Scienze Applicate</h2>
+        </div>
+        
+        <div class="materie-grid">
+          
+          <!-- Card Informatica -->
+          <article class="materia-card tech fade-in-section">
+            <div class="materia-img-wrapper">
+              <img src="immagini/materia-informatica.jpg" alt="Codice di programmazione web" class="materia-img" loading="lazy" width="380" height="180">
+              <div class="materia-card-icon"><i class="fa-solid fa-laptop-code"></i></div>
+            </div>
+            <div class="materia-card-content">
+              <h3>Informatica</h3>
+              <p>Informatica è sempre stata una materia interessante ma con il passare degli anni ho capito che forse non era proprio la scelta migliore...</p>
+              <a href="materia-informatica.html" class="materia-card-link">Scopri il programma <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <!-- Card Sistemi e Reti -->
+          <article class="materia-card tech fade-in-section">
+            <div class="materia-img-wrapper">
+              <img src="immagini/materia-sistemi-reti.jpg" alt="Server rack e infrastruttura di rete" class="materia-img" loading="lazy" width="380" height="180">
+              <div class="materia-card-icon"><i class="fa-solid fa-network-wired"></i></div>
+            </div>
+            <div class="materia-card-content">
+              <h3>Sistemi e Reti</h3>
+              <p>Sistemi è stata sempre una materia che mi è stata sempre a cuore. Mi è sempre piaciuto capire come funzionano i sistemi...</p>
+              <a href="materia-sistemi-reti.html" class="materia-card-link">Scopri il programma <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <!-- Card TPSIT -->
+          <article class="materia-card tech fade-in-section">
+            <div class="materia-img-wrapper">
+              <img src="immagini/materia-tpsit.jpg" alt="Sviluppo mobile e concorrenza thread" class="materia-img" loading="lazy" width="380" height="180">
+              <div class="materia-card-icon"><i class="fa-solid fa-microchip"></i></div>
+            </div>
+            <div class="materia-card-content">
+              <h3>TPSIT</h3>
+              <p>TPSIT è stata una materia complessa da inquadrare a pieno. La concorrenza dei Thread in Java e lo sviluppo Android...</p>
+              <a href="materia-tpsit.html" class="materia-card-link">Scopri il programma <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <!-- Card GPOI -->
+          <article class="materia-card tech fade-in-section">
+            <div class="materia-img-wrapper">
+              <img src="immagini/materia-gpoi.jpg" alt="Diagramma di Gantt e gestione progetti" class="materia-img" loading="lazy" width="380" height="180">
+              <div class="materia-card-icon"><i class="fa-solid fa-bars-progress"></i></div>
+            </div>
+            <div class="materia-card-content">
+              <h3>GPOI</h3>
+              <p>GPOI si è distinta fin da subito dalle altre materie tecniche per l'organizzazione e la progettazione aziendale dei progetti...</p>
+              <a href="materia-gpoi.html" class="materia-card-link">Scopri il programma <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <!-- Card Matematica -->
+          <article class="materia-card tech fade-in-section">
+            <div class="materia-img-wrapper">
+              <img src="immagini/materia-matematica.jpg" alt="Simboli ed equazioni matematiche" class="materia-img" loading="lazy" width="380" height="180">
+              <div class="materia-card-icon"><i class="fa-solid fa-calculator"></i></div>
+            </div>
+            <div class="materia-card-content">
+              <h3>Matematica</h3>
+              <p>La matematica è sempre stata una della mie materie preferite, in particolare l'affascinante risoluzione dei calcoli integrali...</p>
+              <a href="materia-matematica.html" class="materia-card-link">Scopri il programma <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <!-- Card Intelligenza Artificiale -->
+          <article class="materia-card tech fade-in-section">
+            <div class="materia-img-wrapper">
+              <img src="immagini/materia-ia.jpg" alt="Reti neurali e circuiti elettronici intelligenti" class="materia-img" loading="lazy" width="380" height="180">
+              <div class="materia-card-icon"><i class="fa-solid fa-brain"></i></div>
+            </div>
+            <div class="materia-card-content">
+              <h3>Intelligenza Artificiale</h3>
+              <p>Una materia intrigante che ha avuto il suo picco d'interesse nello studio delle reti neurali convoluzionali per immagini...</p>
+              <a href="materia-ia.html" class="materia-card-link">Scopri il programma <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- AREA UMANISTICA -->
+    <section class="area-section" id="area-umanistica">
+      <div class="container">
+        <div class="area-header">
+          <span class="area-badge humanities">Umanistica</span>
+          <h2>Lingua, Cultura & Storia</h2>
+        </div>
+        
+        <div class="materie-grid">
+          
+          <!-- Card Italiano -->
+          <article class="materia-card human fade-in-section">
+            <div class="materia-img-wrapper">
+              <img src="immagini/materia-italiano.jpg" alt="Libri antichi e letteratura italiana" class="materia-img" loading="lazy" width="380" height="180">
+              <div class="materia-card-icon"><i class="fa-solid fa-feather"></i></div>
+            </div>
+            <div class="materia-card-content">
+              <h3>Italiano</h3>
+              <p>L'Italiano mi ha permesso di esplorare la lingua, la letteratura e la cultura, scoprendo in particolare la forza dei poeti maledetti...</p>
+              <a href="materia-italiano.html" class="materia-card-link">Scopri il programma <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <!-- Card Storia -->
+          <article class="materia-card human fade-in-section">
+            <div class="materia-img-wrapper">
+              <img src="immagini/materia-storia.jpg" alt="Eventi storici ed evoluzione sociale" class="materia-img" loading="lazy" width="380" height="180">
+              <div class="materia-card-icon"><i class="fa-solid fa-landmark"></i></div>
+            </div>
+            <div class="materia-card-content">
+              <h3>Storia</h3>
+              <p>La materia Storia mi ha permesso di comprendere l'evoluzione delle società umane, in particolare la Seconda Guerra Mondiale...</p>
+              <a href="materia-storia.html" class="materia-card-link">Scopri il programma <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <!-- Card Inglese -->
+          <article class="materia-card human fade-in-section">
+            <div class="materia-img-wrapper">
+              <img src="immagini/materia-inglese.jpg" alt="Big Ben a Londra, bandiera del Regno Unito" class="materia-img" loading="lazy" width="380" height="180">
+              <div class="materia-card-icon"><i class="fa-solid fa-language"></i></div>
+            </div>
+            <div class="materia-card-content">
+              <h3>Inglese</h3>
+              <p>Inglese mi ha permesso di conoscere la cultura anglosassone, in particolare con il fascino storico dell'Età Vittoriana...</p>
+              <a href="materia-inglese.html" class="materia-card-link">Scopri il programma <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ALTRE MATERIE -->
+    <section class="area-section" id="area-altro">
+      <div class="container">
+        <div class="area-header">
+          <span class="area-badge other">Altro</span>
+          <h2>Benessere & Funzionamento Corporeo</h2>
+        </div>
+        
+        <div class="materie-grid" style="grid-template-columns: repeat(3, 1fr);">
+          <div style="grid-column: 2 / span 1;">
+            
+            <!-- Card Scienze Motorie -->
+            <article class="materia-card oth fade-in-section">
+              <div class="materia-img-wrapper">
+                <img src="immagini/materia-scienze-motorie.jpg" alt="Pista di atletica e sport all'aperto" class="materia-img" loading="lazy" width="380" height="180">
+                <div class="materia-card-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+              </div>
+              <div class="materia-card-content">
+                <h3>Scienze Motorie</h3>
+                <p>Scienze Motorie mi ha aiutato a capire il legame tra movimento e salute, affascinandomi in particolare per l'apparato cardiocircolatorio...</p>
+                <a href="materia-scienze-motorie.html" class="materia-card-link">Scopri il programma <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </article>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER CONDIVISO -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col-info">
+        <h3>Federico Taviani</h3>
+        <p>Sito personale e portfolio multidisciplinare realizzato per il colloquio dell'Esame di Stato 2025/2026. Percorso conclusivo di Informatica.</p>
+        <div class="footer-school-badge">
+          <i class="fa-solid fa-graduation-cap"></i> IIS "Marconi Pieralisi" — Jesi (AN)
+        </div>
+      </div>
+      
+      <div class="footer-col-links">
+        <h4>Mappa del Sito</h4>
+        <ul class="footer-links-list">
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="index.html#chi-sono">Chi Sono</a></li>
+          <li><a href="index.html#passioni">Le Mie Passioni</a></li>
+          <li><a href="materie.html">Materie Scolastiche</a></li>
+          <li><a href="educazione-civica.html">Educazione Civica</a></li>
+          <li><a href="pcto.html">PCTO / FSL</a></li>
+          <li><a href="contatti.html">Contatti</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col-contact">
+        <h4>Contatti</h4>
+        <ul class="footer-contact-list">
+          <li>
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:st10999@iismarconipieralisi.it">st10999@iismarconipieralisi.it</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-phone"></i>
+            <span>+39 3760279896</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Jesi (AN), Italia</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="container footer-bottom">
+      <p class="footer-copy">&copy; 2026 Federico Taviani. Tutti i diritti riservati.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/TavianTorbian" target="_blank" class="footer-social-btn" aria-label="Profilo GitHub di Federico"><i class="fa-brands fa-github"></i></a>
+        <a href="https://instagram.com/fedeetaviaaa._07" target="_blank" class="footer-social-btn" aria-label="Profilo Instagram di Federico"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>

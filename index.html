@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Federico Taviani — Portfolio Esame di Stato 2026</title>
+  <meta name="description" content="Sito web personale e portfolio di Federico Taviani, studente del 5° anno dell'IIS Marconi Pieralisi di Jesi, indirizzo Informatica e Telecomunicazioni.">
+  
+  <!-- SEO Open Graph -->
+  <meta property="og:title" content="Federico Taviani — Portfolio Personale">
+  <meta property="og:description" content="Il sito personale e percorso multidisciplinare per l'Esame di Stato di Federico Taviani, indirizzo Informatica.">
+  <meta property="og:image" content="immagini/profilo.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Icone Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Foglio di Stile Personalizzato -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAVBAR E TESTATA STICKY -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <a href="index.html" class="site-logo" aria-label="Federico Taviani Home">
+        <i class="fa-solid fa-code"></i> FEDERICO<span>TAVIANI</span>
+      </a>
+      
+      <button class="hamburger-toggle" aria-label="Apri menu di navigazione" aria-expanded="false" aria-controls="navMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+      <nav class="site-navigation">
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html#home" class="nav-link">Home</a></li>
+          <li><a href="index.html#chi-sono" class="nav-link">Chi Sono</a></li>
+          <li><a href="index.html#passioni" class="nav-link">Passioni</a></li>
+          <li><a href="materie.html" class="nav-link">Materie</a></li>
+          <li><a href="educazione-civica.html" class="nav-link">Educazione Civica</a></li>
+          <li><a href="pcto.html" class="nav-link">PCTO</a></li>
+          <li><a href="contatti.html" class="nav-link">Contatti</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- SEZIONE 1: HERO -->
+    <section class="hero-section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="hero-subtitle">Benvenuto nel mio portfolio</span>
+          <h1>Taviani Federico</h1>
+          <p class="hero-welcome">Cinque anni di scuola, le cose che mi appassionano, qualche progetto: ecco quello che ho da raccontare.</p>
+          <div class="btn-group">
+            <a href="#chi-sono" class="btn btn-primary"><i class="fa-solid fa-user"></i> Scopri di più</a>
+            <a href="materie.html" class="btn btn-secondary"><i class="fa-solid fa-book"></i> Le mie materie</a>
+          </div>
+        </div>
+        <div class="hero-image-container">
+          <div class="hero-image-wrapper">
+            <img src="immagini/profilo.jpg" alt="Foto profilo di Federico Taviani" class="hero-image" width="380" height="380">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEZIONE 2: CHI SONO -->
+    <section class="chi-sono-section fade-in-section" id="chi-sono">
+      <div class="container">
+        <h2 class="section-title">Chi Sono</h2>
+        <div class="chi-sono-grid">
+          
+          <!-- Info Card con Dati Anagrafici -->
+          <div class="profile-card">
+            <div class="profile-card-header">
+              <img src="immagini/profilo.jpg" alt="Federico Taviani" class="profile-card-avatar" width="100" height="100" loading="lazy">
+              <h3>Taviani Federico</h3>
+              <p style="font-size: 0.9rem; margin-bottom: 0;">Classe 5ª CM — A.S. 2025/2026</p>
+            </div>
+            
+            <div class="profile-info-grid">
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-solid fa-cake-candles"></i></div>
+                <div>
+                  <div class="info-label">Età</div>
+                  <div class="info-value">19 anni</div>
+                </div>
+              </div>
+              
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div>
+                  <div class="info-label">Residenza</div>
+                  <div class="info-value">Jesi (AN)</div>
+                </div>
+              </div>
+              
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-solid fa-school"></i></div>
+                <div>
+                  <div class="info-label">Scuola</div>
+                  <div class="info-value">IIS "Marconi Pieralisi" Jesi</div>
+                </div>
+              </div>
+              
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-solid fa-gears"></i></div>
+                <div>
+                  <div class="info-label">Indirizzo</div>
+                  <div class="info-value">Informatica e Telecomunicazioni</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testi di dettaglio per Presentazione, Studi e Futuro -->
+          <div class="chi-sono-details">
+            
+            <div class="details-block">
+              <h3><i class="fa-solid fa-address-card"></i> Presentazione</h3>
+              <p>Sono Federico Taviani, ho 19 anni e risiedo a Jesi. Sono un ragazzo determinato che frequenta l'ultimo anno delle scuole superiori, appassionato di tecnologia, programmazione e sistemi informatici. Questo sito raccoglie il lavoro svolto durante il mio intero percorso scolastico e le passioni che coltivo fuori dalle aule.</p>
+            </div>
+
+            <div class="details-block">
+              <h3><i class="fa-solid fa-graduation-cap"></i> Il mio percorso di studi</h3>
+              <p>Frequento l'articolazione Informatica presso l'Istituto di Istruzione Superiore "Marconi Pieralisi" di Jesi. Durante questi cinque anni ho approfondito materie tecniche come lo sviluppo software frontend e backend, la progettazione e normalizzazione di database SQL, lo studio dell'architettura di reti aziendali e i sistemi di calcolo paralleli. Questo percorso mi ha fornito solide basi metodologiche e competenze applicate per affrontare le sfide del mondo tecnologico.</p>
+            </div>
+
+            <div class="details-block">
+              <h3><i class="fa-solid fa-compass"></i> Uno sguardo al futuro</h3>
+              <div class="future-callout">
+                <p>La scuola e le esperienze professionali mi hanno aiutato a definire la mia strada. Il mio obiettivo principale dopo il diploma è intraprendere la carriera come <strong>sistemista</strong> o specialista in <strong>sicurezza informatica</strong>. La gestione delle infrastrutture fisiche e virtuali e la protezione della trasmissione dati sono i settori tecnologici che più mi appassionano e in cui desidero crescere professionalmente.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEZIONE 3: PASSIONI -->
+    <section class="passioni-section fade-in-section" id="passioni">
+      <div class="container">
+        <h2 class="section-title">Le Mie Passioni</h2>
+        
+        <p class="passioni-intro">La scuola occupa una parte importante delle mie giornate, ma non è tutto. Ci sono 3 cose che, fuori dall'aula, mi raccontano meglio di qualsiasi voto: la musica, il calcetto, e i viaggi.</p>
+        
+        <div class="passioni-grid">
+          
+          <!-- Card Musica -->
+          <article class="passione-card">
+            <div class="passione-img-wrapper">
+              <span class="passione-badge"><i class="fa-solid fa-headphones"></i> Musica</span>
+              <img src="immagini/passione-musica.jpeg" alt="Strumenti musicali batteria e chitarra" class="passione-img" loading="lazy" width="400" height="220">
+            </div>
+            <div class="passione-content">
+              <h3>Musica</h3>
+              <p>La musica è sempre stata e sempre avrà un posto nel mio cuore: mi ha accompagnato in molti momenti della mia vita e mi ha molto aiutato. Ascolto generi molto diversi: passo dal metal più brutale al rap o trap moderna per poi tornare al rock o punk. Tanti generi ma mi rispecchiano uno dopo l'altro. Inoltre suono anche degli strumenti: il principale è la batteria che la suono da una decina di anni e poi negli ultimi anni ho imparato a suonare la chitarra da autodidatta. Di questo percorso strumentale sono molto fiero anche per le band che sto costruendo e portando avanti come fossero miei figli.</p>
+              
+              <div class="music-artists">
+                <h4>Artisti Preferiti</h4>
+                <div class="artist-badges">
+                  <span class="badge-tag">Distant</span>
+                  <span class="badge-tag">Invent Animate</span>
+                  <span class="badge-tag">Kid Yugi</span>
+                  <span class="badge-tag">Whirr</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card Calcetto -->
+          <article class="passione-card">
+            <div class="passione-img-wrapper">
+              <span class="passione-badge"><i class="fa-solid fa-soccer-ball"></i> Calcetto</span>
+              <img src="immagini/passsione-calcetto.jpeg" alt="Campo da calcio a 5 calcetto" class="passione-img" loading="lazy" width="400" height="220">
+            </div>
+            <div class="passione-content">
+              <h3>Calcetto</h3>
+              <p>Gioco a calcetto da quando vevo 5-6 anni. Mi è sempre piaciuto praticare un sport di squadra anche se inizialmente non ero molto affine al gioco di squadra. Poi col tempo son cresciuto e ho capito come effettivamente si doveva giocare e quindi poi mi son divertito molto di più. ho sempre giocato con la stessa squadra con la quale gioco adesso e aver visto tanti cambi d formazione e tanti tornei diversi, questo mi ha portato a conoscere tante persone nuove. Questa realtà mi è sempre piaciuta tantè che se avessi avuto un pizzico di fortuna in più, avrei potuto arrivare anche in alto. Magari ce l'avrò...</p>
+            </div>
+          </article>
+
+          <!-- Card Viaggi -->
+          <article class="passione-card">
+            <div class="passione-img-wrapper">
+              <span class="passione-badge"><i class="fa-solid fa-plane"></i> Viaggi</span>
+              <img src="immagini/passione-viaggi.jpg" alt="Paesaggi naturali mozzafiato all'estero" class="passione-img" loading="lazy" width="400" height="220">
+            </div>
+            <div class="passione-content">
+              <h3>Viaggi</h3>
+              <p>Viaggiare è una di quelle passioni che ancora non ho potuto mettere in pratica a pieno in quanto non ho ne tempo ne denaro per riuscire a fare i viaggi che mi piacerebbero. Tra i pochi viaggi che invece ho fatto mi ricordo la Germania quando ero piccolo con la mia famiglia ma mi ricordo poco, dovrei tornarci, e sicuramente l'indimenticabile gita del quinto in Grecia.</p>
+              
+              <div class="travel-destinations">
+                <h4>Mete dei Sogni</h4>
+                <div class="travel-badges">
+                  <span class="badge-tag"><i class="fa-solid fa-map-pin"></i> Giappone</span>
+                  <span class="badge-tag"><i class="fa-solid fa-map-pin"></i> Norvegia</span>
+                  <span class="badge-tag"><i class="fa-solid fa-map-pin"></i> USA</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER CONDIVISO -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col-info">
+        <h3>Federico Taviani</h3>
+        <p>Sito personale e portfolio multidisciplinare realizzato per il colloquio dell'Esame di Stato 2025/2026. Percorso conclusivo di Informatica.</p>
+        <div class="footer-school-badge">
+          <i class="fa-solid fa-graduation-cap"></i> IIS "Marconi Pieralisi" — Jesi (AN)
+        </div>
+      </div>
+      
+      <div class="footer-col-links">
+        <h4>Mappa del Sito</h4>
+        <ul class="footer-links-list">
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="index.html#chi-sono">Chi Sono</a></li>
+          <li><a href="index.html#passioni">Le Mie Passioni</a></li>
+          <li><a href="materie.html">Materie Scolastiche</a></li>
+          <li><a href="educazione-civica.html">Educazione Civica</a></li>
+          <li><a href="pcto.html">PCTO / FSL</a></li>
+          <li><a href="contatti.html">Contatti</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col-contact">
+        <h4>Contatti</h4>
+        <ul class="footer-contact-list">
+          <li>
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:st10999@iismarconipieralisi.it">st10999@iismarconipieralisi.it</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-phone"></i>
+            <span>+39 3760279896</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Jesi (AN), Italia</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="container footer-bottom">
+      <p class="footer-copy">&copy; 2026 Federico Taviani. Tutti i diritti riservati.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/TavianTorbian" target="_blank" class="footer-social-btn" aria-label="Profilo GitHub di Federico"><i class="fa-brands fa-github"></i></a>
+        <a href="https://instagram.com/fedeetaviaaa._07" target="_blank" class="footer-social-btn" aria-label="Profilo Instagram di Federico"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PCTO / Formazione Scuola Lavoro — Federico Taviani</title>
+  <meta name="description" content="Esperienza di FSL (PCTO) di Federico Taviani presso Syeew Srl, con lo sviluppo di una dashboard Angular e REST API.">
+  
+  <!-- SEO Open Graph -->
+  <meta property="og:title" content="PCTO / Formazione Scuola Lavoro — Federico Taviani">
+  <meta property="og:description" content="Dettaglio dello stage aziendale: sviluppo di dashboard Angular full-stack con JWT e HTTPS.">
+  <meta property="og:image" content="immagini/pcto-sede.jpeg">
+  <meta property="og:type" content="website">
+
+  <!-- Icone Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Foglio di Stile Personalizzato -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAVBAR E TESTATA STICKY -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <a href="index.html" class="site-logo" aria-label="Federico Taviani Home">
+        <i class="fa-solid fa-code"></i> FEDERICO<span>TAVIANI</span>
+      </a>
+      
+      <button class="hamburger-toggle" aria-label="Apri menu di navigazione" aria-expanded="false" aria-controls="navMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+      <nav class="site-navigation">
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html#home" class="nav-link">Home</a></li>
+          <li><a href="index.html#chi-sono" class="nav-link">Chi Sono</a></li>
+          <li><a href="index.html#passioni" class="nav-link">Passioni</a></li>
+          <li><a href="materie.html" class="nav-link">Materie</a></li>
+          <li><a href="educazione-civica.html" class="nav-link">Educazione Civica</a></li>
+          <li><a href="pcto.html" class="nav-link">PCTO</a></li>
+          <li><a href="contatti.html" class="nav-link">Contatti</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- INTESTAZIONE PCTO -->
+    <header class="container pcto-header-grid">
+      <div class="pcto-header-text">
+        <span class="pcto-badge-azienda"><i class="fa-solid fa-building-user"></i> Syeew Srl</span>
+        <h1>Formazione Scuola Lavoro (PCTO)</h1>
+        <p>Una concreta esperienza formativa in azienda che ha permesso di applicare le competenze informatiche e crescere a livello personale nello sviluppo di applicativi web moderni.</p>
+        
+        <div class="pcto-meta-grid">
+          <div class="pcto-meta-item">
+            <i class="fa-solid fa-user-tie"></i>
+            <div class="pcto-meta-label">Ruolo</div>
+            <div class="pcto-meta-value">Sviluppatore Full-Stack</div>
+          </div>
+          <div class="pcto-meta-item">
+            <i class="fa-solid fa-calendar-days"></i>
+            <div class="pcto-meta-label">Durata</div>
+            <div class="pcto-meta-value">5 Settimane</div>
+          </div>
+          <div class="pcto-meta-item">
+            <i class="fa-solid fa-laptop-code"></i>
+            <div class="pcto-meta-label">Progetto</div>
+            <div class="pcto-meta-value">Dashboard Angular & REST API</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="pcto-header-img">
+        <img src="immagini/pcto-sede.jpeg" alt="Ufficio moderno sede aziendale" width="500" height="350">
+      </div>
+    </header>
+
+    <!-- INTRODUZIONE AZIENDALE INTEGRALE -->
+    <section class="container fade-in-section" style="padding-top: 2rem; padding-bottom: 2rem;">
+      <div class="materia-descr-card" style="line-height: 1.8; font-size: 1.1rem; color: var(--text-primary);">
+        <p>Durante le settimane di FSL ho avuto l’opportunità di entrare in contatto con una realtà aziendale che mi ha permesso di crescere sia a livello tecnico sia a livello personale. Fin dal primo giorno mi sono sentito accolto e inserito in un ambiente sereno e disponibile, dove ogni dubbio veniva ascoltato e chiarito. L’esperienza si è rivelata molto più interessante di quanto immaginassi, permettendomi di scoprire linguaggi di programmazione e strumenti nuovi, ma anche di mettermi alla prova con problematiche concrete che richiedevano impegno, pazienza e capacità di adattamento.</p>
+      </div>
+    </section>
+
+    <!-- TIMELINE DELLE SETTIMANE CON TESTO INTEGRALE E PARAGRAFI SEPARATI -->
+    <section class="pcto-timeline-section fade-in-section">
+      <div class="container">
+        <h2 class="timeline-title">Diario delle Attività Settimanali</h2>
+        
+        <div class="timeline-container">
+          
+          <!-- Settimana 1 -->
+          <div class="timeline-item left">
+            <div class="timeline-dot"></div>
+            <article class="timeline-card">
+              <span class="timeline-week-badge">Settimana 1</span>
+              <h3>Introduzione & Architettura Base</h3>
+              <p>Nei primi giorni l’azienda mi ha spiegato in cosa consiste il progetto su cui avrei lavorato: la realizzazione di una dashboard in Angular, pensata per la parte manageriale e amministrativa di un’applicazione dedicata alla gestione dei bilanci di locali come bar, ristoranti o altre attività simili.</p>
+              <p>All’inizio mi sentivo un po’ spaesato, ma già dal secondo giorno ho acquisito maggiore sicurezza e ho iniziato a lavorare con entusiasmo.</p>
+              <p>Il lavoro prevedeva sia la parte di backend che quella di frontend.</p>
+              <p>Per il backend ho dovuto creare un server che, attraverso un database, metteva a disposizione i dati tramite delle API-REST sotto forma di file .json. Questa parte è stata molto interessante: ho realizzato il database tramite console con query SQL di base, simili a quelle affrontate a scuola.</p>
+              <p>In seguito mi sono concentrato sul frontend, cioè il lato client, con l’obiettivo di visualizzare i dati sui grafici della dashboard. All’inizio HTML e CSS mi sembravano complicati perché non li conoscevo, ma dedicando del tempo allo studio sono riuscito a comprenderli. Con Angular, invece, ho avuto qualche difficoltà in più, ma passo dopo passo sono riuscito a iniziare a lavorare.</p>
+              <p>In generale, la prima settimana è stata positiva: mi sono divertito, ho imparato molto e mi sono sentito subito parte integrante del progetto.</p>
+            </article>
+          </div>
+
+          <!-- Settimana 2 -->
+          <div class="timeline-item right">
+            <div class="timeline-dot"></div>
+            <article class="timeline-card">
+              <span class="timeline-week-badge">Settimana 2</span>
+              <h3>Ristrutturazione & Modularità</h3>
+              <p>La seconda settimana è stata più impegnativa. Ho incontrato diversi ostacoli, alcuni dei quali hanno richiesto anche più giorni per essere superati. Tuttavia, ogni volta che trovavo la soluzione, la soddisfazione era grande.</p>
+              <p>Ho lavorato soprattutto sul frontend, rendendo il codice più leggibile ed efficiente. Inizialmente il progetto era strutturato in un unico file, ma l’ho suddiviso in più file dedicati: uno per le rotte, uno per la gestione della dashboard, uno per la pagina principale, un altro per l’intercettazione degli errori e così via. Questa suddivisione ha migliorato la chiarezza del progetto.</p>
+              <p>Anche il backend ha richiesto qualche aggiornamento: ho aggiunto alcuni metodi per le query SQL e corretto piccoli errori. Alla fine della settimana il backend era quasi completo.</p>
+              <p>L’ambiente aziendale continuava a essere piacevole e motivante, cosa che mi ha aiutato a rimanere concentrato e interessato.</p>
+            </article>
+          </div>
+
+          <!-- Settimana 3 -->
+          <div class="timeline-item left">
+            <div class="timeline-dot"></div>
+            <article class="timeline-card">
+              <span class="timeline-week-badge">Settimana 3</span>
+              <h3>Filtri Dinamici & Integrazione Datepicker</h3>
+              <p>La terza settimana è stata dedicata al perfezionamento. Dopo aver completato gran parte della base del progetto, ho lavorato sui controlli e filtri per data e località. Questo era un passaggio fondamentale, perché i dati provenivano da recensioni relative a più locali e distribuite su periodi diversi.</p>
+              <p>Ho modificato i metodi del backend per permettere all’utente di scegliere se avere un’API-REST normale o filtrata in base ai parametri passati. Le query sono quindi diventate dinamiche. Nel frontend ho implementato un componente chiamato datepicker, che permetteva di selezionare l’intervallo di date. È stato necessario anche inserire controlli, per esempio impedendo che la data di inizio fosse successiva alla data di fine o che uscisse dai limiti del database.</p>
+              <p>Dopo il filtraggio per date, ho implementato quello per località, più semplice da gestire.</p>
+              <p>È stato un lavoro lungo, soprattutto per il datepicker che mi ha portato via buona parte della settimana, ma il risultato è stato molto utile. Alla fine mi sono reso conto di quanto stessi imparando: concetti che all’inizio mi sembravano complessi erano diventati più chiari, e questo mi ha dato molta soddisfazione.</p>
+            </article>
+          </div>
+
+          <!-- Settimana 4 -->
+          <div class="timeline-item right">
+            <div class="timeline-dot"></div>
+            <article class="timeline-card">
+              <span class="timeline-week-badge">Settimana 4</span>
+              <h3>Sicurezza, Autenticazione & HTTPS</h3>
+              <p>Dopo le vacanze ho ripreso il lavoro con una fase di revisione del codice. Era ancora troppo grezzo e pieno di ripetizioni, quindi ho dedicato due giorni a riorganizzarlo. In seguito mi sono occupato della schermata di login, implementata con token JWT e protocollo HTTPS.</p>
+              <p>Questa parte è stata particolarmente difficile perché non avevo mai affrontato l’argomento. Ho studiato e sperimentato fino a riuscire a implementare una soluzione funzionante. L’utente poteva decidere se registrarsi o accedere, e la password veniva hashata nel backend prima di essere salvata nel database. All’inizio ho avuto qualche problema, soprattutto per la questione della sicurezza, ma ho capito che con l’arrivo dell’HTTPS sarebbe stato più sicuro mantenere l’hashing nel backend.</p>
+              <p>È stato un passaggio complesso, ma molto formativo: ho capito quanto sia importante la sicurezza nei sistemi informatici.</p>
+            </article>
+          </div>
+
+          <!-- Settimana 5 -->
+          <div class="timeline-item left">
+            <div class="timeline-dot"></div>
+            <article class="timeline-card">
+              <span class="timeline-week-badge">Settimana 5</span>
+              <h3>Gestione Ruoli & Middleware</h3>
+              <p>L’ultima settimana è stata la più intensa. Ho dovuto implementare nuove funzionalità e al tempo stesso affrontare difficoltà tecniche non banali. Per prima cosa ho configurato il progetto su HTTPS, risolvendo alcuni problemi iniziali.</p>
+              <p>In seguito mi sono concentrato sulla gestione dei ruoli degli utenti. Era necessario distinguere tra utenti standard e amministratori. Gli utenti standard potevano soltanto visualizzare i grafici, mentre gli amministratori avevano un vero e proprio pannello di controllo per modificare i dati delle recensioni nel database.</p>
+              <p>Per realizzare questa divisione ho aggiunto un attributo “role” al database e ho utilizzato una funzione di middleware nel backend, in grado di controllare i permessi di ogni utente prima dell’accesso alle funzionalità.</p>
+              <p>Questa parte è stata complessa, ma mi ha fatto comprendere ancora meglio l’organizzazione e la logica di un’applicazione web moderna.</p>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- RIFLESSIONE E COMPETENZE -->
+    <section class="pcto-reflection-section fade-in-section">
+      <div class="container pcto-reflection-grid">
+        
+        <!-- Competenze Acquisite -->
+        <div class="skills-card">
+          <h3><i class="fa-solid fa-laptop-code"></i> Competenze Acquisite</h3>
+          
+          <div class="skills-group">
+            <h4>Sviluppo Frontend</h4>
+            <div class="skills-badges-list">
+              <span class="skill-tag"><i class="fa-brands fa-angular"></i> Angular</span>
+              <span class="skill-tag"><i class="fa-brands fa-html5"></i> HTML5 & CSS3</span>
+              <span class="skill-tag"><i class="fa-brands fa-js"></i> TypeScript / JS</span>
+              <span class="skill-tag"><i class="fa-solid fa-chart-line"></i> Dashboard Graphs</span>
+            </div>
+          </div>
+
+          <div class="skills-group">
+            <h4>Backend & Database</h4>
+            <div class="skills-badges-list">
+              <span class="skill-tag"><i class="fa-solid fa-server"></i> REST APIs</span>
+              <span class="skill-tag"><i class="fa-solid fa-database"></i> SQL Databases</span>
+              <span class="skill-tag"><i class="fa-solid fa-code"></i> JSON Exchange</span>
+            </div>
+          </div>
+
+          <div class="skills-group">
+            <h4>Cybersecurity & Infrastructure</h4>
+            <div class="skills-badges-list">
+              <span class="skill-tag"><i class="fa-solid fa-key"></i> JWT Auth Tokens</span>
+              <span class="skill-tag"><i class="fa-solid fa-lock"></i> HTTPS / TLS</span>
+              <span class="skill-tag"><i class="fa-solid fa-user-shield"></i> Role Middleware</span>
+            </div>
+          </div>
+
+          <div class="skills-group">
+            <h4>Soft Skills</h4>
+            <div class="skills-badges-list">
+              <span class="skill-tag"><i class="fa-solid fa-users"></i> Lavoro in team</span>
+              <span class="skill-tag"><i class="fa-solid fa-lightbulb"></i> Problem Solving</span>
+              <span class="skill-tag"><i class="fa-solid fa-hourglass-half"></i> Gestione ostacoli</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Riflessione Finale Integrale -->
+        <div class="pcto-reflection-text">
+          <h3><i class="fa-solid fa-award"></i> Riflessione Personale Finale</h3>
+          <p>L’esperienza di FSL è stata molto positiva e ha superato di gran lunga le mie aspettative. All’inizio pensavo che sarebbe stato noioso e che avrei avuto poco da fare, ma mi sono dovuto ricredere. Ogni giorno ho imparato qualcosa di nuovo: da Angular a HTML e CSS, dalle API-REST ai token JWT, fino alla gestione dei ruoli con middleware.</p>
+          <p>Ho affrontato momenti difficili, ma con pazienza e impegno sono sempre riuscito a superarli. Ho imparato a scrivere codice più ordinato, a gestire errori e imprevisti e soprattutto ad avere più fiducia nelle mie capacità.</p>
+          <p>Questa esperienza mi ha reso più preparato in vista del quinto anno e mi ha fatto capire che lavorare in un ambiente collaborativo e stimolante rende l’apprendimento non solo utile, ma anche piacevole.</p>
+          <p>In conclusione, considero il mio FSL un percorso di crescita tecnica e personale che mi ha dato motivazione e nuove competenze per il futuro.</p>
+          
+          <div class="pcto-gallery">
+            <div class="pcto-gallery-item">
+              <img src="immagini/pcto-sede.jpeg" alt="Sede dell'azienda Syeew Srl" loading="lazy" width="300" height="250">
+            </div>
+            <div class="pcto-gallery-item">
+              <img src="immagini/pcto-team.jpeg" alt="Il team di lavoro in azienda" loading="lazy" width="300" height="250">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER CONDIVISO -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col-info">
+        <h3>Federico Taviani</h3>
+        <p>Sito personale e portfolio multidisciplinare realizzato per il colloquio dell'Esame di Stato 2025/2026. Percorso conclusivo di Informatica.</p>
+        <div class="footer-school-badge">
+          <i class="fa-solid fa-graduation-cap"></i> IIS "Marconi Pieralisi" — Jesi (AN)
+        </div>
+      </div>
+      
+      <div class="footer-col-links">
+        <h4>Mappa del Sito</h4>
+        <ul class="footer-links-list">
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="index.html#chi-sono">Chi Sono</a></li>
+          <li><a href="index.html#passioni">Le Mie Passioni</a></li>
+          <li><a href="materie.html">Materie Scolastiche</a></li>
+          <li><a href="educazione-civica.html">Educazione Civica</a></li>
+          <li><a href="pcto.html">PCTO / FSL</a></li>
+          <li><a href="contatti.html">Contatti</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col-contact">
+        <h4>Contatti</h4>
+        <ul class="footer-contact-list">
+          <li>
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:st10999@iismarconipieralisi.it">st10999@iismarconipieralisi.it</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-phone"></i>
+            <span>+39 3760279896</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Jesi (AN), Italia</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="container footer-bottom">
+      <p class="footer-copy">&copy; 2026 Federico Taviani. Tutti i diritti riservati.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/TavianTorbian" target="_blank" class="footer-social-btn" aria-label="Profilo GitHub di Federico"><i class="fa-brands fa-github"></i></a>
+        <a href="https://instagram.com/fedeetaviaaa._07" target="_blank" class="footer-social-btn" aria-label="Profilo Instagram di Federico"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
