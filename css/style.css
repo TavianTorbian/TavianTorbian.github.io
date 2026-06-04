@@ -145,12 +145,19 @@ a:hover {
 }
 
 img {
-  max-width: 100%;
-  margin: 1rem auto;
-  height: auto;
   display: block;
+  margin: 1rem auto;
+  width: 400px;      /* dimensione desiderata */
+  max-width: 100%;   /* responsive su mobile */
+  height: auto;
   border-radius: var(--border-radius-md);
   object-fit: cover;
+}
+
+#fake-news {
+  width: 400px;
+  max-width: 100%;
+  height: auto;
 }
 
 /* STRUTTURA LAYOUT */
