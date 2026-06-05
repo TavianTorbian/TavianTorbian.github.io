@@ -43,7 +43,7 @@
   --box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.6);
   --glow-shadow: 0 0 20px rgba(6, 182, 212, 0.2);
   --border-glass: 1px solid rgba(255, 255, 255, 0.08);
-  --border-color: rgba(255, 255, 255, 0.06);
+  --border-color: rgba(255, 255, 255, 0.12);
 }
 
 /* RESET E REGOLE BASE */
@@ -1715,6 +1715,13 @@ textarea.form-control {
 }
 
 .fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+/* Fallback: assicurati che la timeline sia visibile anche se JS non aggiunge la classe .is-visible */
+.pcto-timeline-section {
   opacity: 1;
   transform: none;
   visibility: visible;
